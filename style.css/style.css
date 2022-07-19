@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rosa {
+    text-decoration-color:violet;
+}
+
+.branco{
+    color: rgb(255, 255, 255);
+}
+
+#azul{
+    background-color: blue; height: 120px;
+  }
+  #vermelho{
+    background-color: red; height: 120px;
+  }
+  #preto {min-height:400px;
+         }
+  #amarelo {
+    background-color: yellow; min-height: 400px
+  }
+  #verde{
+    background-color: green; height: 115px;
+  }
+  
+  #administra{
+    background-color: rgb(144, 144, 175); height: 290px;
+  }
+  #arte{
+    background-color: rgb(255, 253, 148); height: 290px;
+  }
+
+  #bio {
+    background-color: rgb(131, 179, 131); height: 290px;
+  }
+
+  #exatas{
+    background-color: rgb(217, 158, 247); height: 290px;
+  }
+
+  #humanas{
+    background-color: rgb(245, 202, 122); height: 290px;
+  }
+
+  #comun{
+    background-color: rgb(255, 146, 146); height: 290px;
+  }
+  #eng{
+    background-color: rgb(155, 155, 189); height: 290px;
+  }
+  #saude{
+    background-color: rgb(122, 189, 122); height: 290px;
+  }
+
+  #jogos{
+    background-color: red; height: 400;
+  }
+  #cursos{
+    background-color: rgb(77, 77, 236); height:  400;
+  }
+  #guia{
+    background-color: rgb(48, 212, 48); height: 400;
+  }
+
