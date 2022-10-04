@@ -1,136 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>EDUGAMES+ - Cursos</title>
-<link href="./style.css/style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<style>
-  div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 200px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: 210px;
-  }
-  
-  div.desc {
-    padding: 20px;
-    text-align: center;
-    background-color: rgb(243, 243, 56);
-  }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>EDUGAMES+ - Cursos</title>
+  <link href="./style.css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 240px;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: 210px;
+    }
+
+    div.desc {
+      padding: 20px;
+      text-align: center;
+      background-color: rgb(243, 243, 56);
+      height: 150px;
+    }
   </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="./style.css/style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
-   <!--menu-->
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"><img src="./imagens/baseline_sports_esports_white_24dp.png" width="32" height="32" class="d-inline-block align-top" alt="">
+  <!--menu-->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f82d2d">
+    <a class="navbar-brand" href="#"><img src="./imagens/baseline_sports_esports_white_24dp.png" width="32" height="32"
+        class="d-inline-block align-top" alt="">
       <strong>EDUGAMES+</strong></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+      aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="textoNavbar">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Jogos</a>
+          <a class="nav-link" href="Jogos.html">Jogos</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="cursos.html">Cursos</a>
-          <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link" href="guiapro.html">Guia de Profissões</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contato.html">Contato</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Login</a>
-          <div class="dropdown-menu">
-              <form class="px-5 py-3">
-              <div class="form-group">
-                <label for="exampleDropdownFormEmail2">Endereço de email</label>
-                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@exemplo.com">
-              </div>
-              <div class="form-group">
-                <label for="exampleDropdownFormPassword2">Senha</label>
-                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Senha">
-              </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
-                <label class="form-check-label" for="dropdownCheck2">
-                  Lembrar de mim
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary">Entrar</button>
-              <br><br>
-              <button type="submit" class="btn btn-outline-warning">Recuperar Senha</button>
-              <br><br>
-              <button type="submit" class="btn btn-outline-dark">Cadastre-se</button>
-            </form>
-      </li>   
-      </ul>
-      </div>
-    </div>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
   </nav>
   <!--fim menu-->
-<div class="container-fluid bg-dark">
+  <div class="container-fluid" style="background-color: #f82d2d">
     <h2 class="branco"> <img src="./imagens/baseline_school_white_24dp.png"> Cursos</h2>
-</div>
-<div class="container-flex">
-<div class="gallery">
-  <a target="recode" href="https://recode.org.br/">
-    <img src="./imagens/recode.png" alt="Cursos Recode" width="600" height="400">
-  </a>
-  <div class="desc">Cursos gratuitos na área de tecnologia</div>
-</div>
-
-<div class="gallery">
-  <a target="senac" href="https://www.sp.senac.br/bolsas-de-estudo">
-    <img src="./imagens/senac.png" alt="Cursos Senac" width="600" height="400">
-  </a>
-  <div class="desc">Bolsas para os cursos técnicos do Senac</div>
-</div>
-
-<div class="gallery">
-  <a target="faetec" href="http://www.faetec.rj.gov.br/">
-    <img src="./imagens/fae.jpg" alt="Cursos FAETEC" width="600" height="400">
-  </a>
-  <div class="desc">Cursos técnicos-RJ</div>
-</div>
-
-<div class="gallery">
-  <a target="novotec" href="https://www.novotec.sp.gov.br/">
-    <img src="./imagens/novotec.jpg" alt="Cursos Novotec">
-  </a>
-  <div class="desc">Cursos técnicos com Bolsa-auxílio - SP</div>
-</div>
-
-<div class="gallery">
-  <a target="kultivi" href="https://kultivi.com/">
-    <img src="./imagens/kultive.png" alt="Cursos Kultive">
-  </a>
-  <div class="desc">Cursos de Línguas e ENEM gratuitos</div>
-</div>
-</div>
+  </div>
+  <br>
 
 
+  <div class="container-flex">
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/sistfiep.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sistema Fiep - Brasil</h5>
+          <p>Bolsas para cursos técnicos e profissionalizantes.</p>
+          <a href="https://www.sistemafiep.org.br/gratuidade/" target="_blank" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/ceapsp2.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CEAP - SP</h5>
+          <p>Cursos técnicos e profissionalizantes gratuitos.</p>
+          <a href="https://ceappedreira.org.br/" target="_blank" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/senac2.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Senac EAD - Brasil</h5>
+          <p>Bolsas para cursos técnicos a distância.</p>
+          <a href="https://www.ead.senac.br/" target="_blank" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/ctur2.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Colégio Técnico - RJ</h5>
+          <p>Cursos técnicos e profissionalizantes</p>
+          <a href="http://ctur.ufrrj.br/" target="_blank" class="btn btn-primary">Acessar</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/etecbra.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">E-Tec Brasil</h5>
+          <p>Cursos a distância oferecidos pelo o Governo Federal.</p>
+          <a href="http://portal.mec.gov.br/rede-e-tec-brasil/rede-e-tec-brasil-apresentacao" target="_blank"
+            class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/faetec.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Faetec - RJ</h5>
+          <p>Cursos técnicos e profissionalizantes gratuitos.</p>
+          <a href="https://faetecrj.org/" target="_blank" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/liceu.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Liceu Tec - SP</h5>
+          <p>Bolsas para cursos técnicos e profissionalizantes.</p>
+          <a href="https://www.liceutec.com.br/inscricoes-concurso-de-bolsas/" target="_blank"
+            class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/recode2.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Recode EAD - Brasil</h5>
+          <p>Cursos gratuitos a distância na área de tecnologia.</p>
+          <a href="http://ctur.ufrrj.br/" target="_blank" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/kultive.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Kultivi (EAD)</h5>
+          <p>Cursos de idiomas e preparatório para o ENEM.</p>
+          <a href="https://kultivi.com/" target="_blank" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/novotec2.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Novotec - SP</h5>
+          <p>Cursos técnicos a distância e presencial.</p>
+          <a href="https://www.novotec.sp.gov.br/" target="_blank" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/proz2.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Proz - MG</h5>
+          <p>Cursos técnicos e profissionalizantes gratuitos.</p>
+          <a href="https://prozeducacao.com.br/blog/cursos/cursos-tecnicos-gratuitos-trilhas-de-futuro/" target="_blank"
+            class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div id="curso" class="card">
+        <img src="./imagens/pronatec.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pronatec - Brasil</h5>
+          <p>Cursos técnicos e Programa Jovem Apendiz.</p>
+          <a href="https://pronatecsisutec.com.br/" target="_blank" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 
 
@@ -142,10 +211,20 @@
 
 
 
-<script src="script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
